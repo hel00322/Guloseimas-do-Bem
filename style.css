@@ -173,10 +173,11 @@ header{
     repeat(auto-fit, minmax (200px , auto));
 }
 
-.contato p{
+.h3-ctt{
     color: #fff;
     font-size: 23px;
     margin-bottom: 1.6rem;
+    font: bold;
 }
 
 .contato h5{
