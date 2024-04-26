@@ -168,7 +168,6 @@ header{
     justify-content: space-around;
     background-color: #3d1e20;
     padding: 3rem;
-    /*margin-top: 3rem;*/
     display: grid
     repeat(auto-fit, minmax (200px , auto));
 }
