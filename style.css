@@ -173,7 +173,7 @@ header{
     repeat(auto-fit, minmax (200px , auto));
 }
 
-.rodape h6{
+.titulo-rodape{
     color: #fff;
     font-size: 23px;
     margin-bottom: 1.6rem;
