@@ -73,7 +73,7 @@ header{
     transition: 0.3s;
 }
 
-.navbar-links a:visited a:active{
+.navbar-links a:active{
     color: #d884df;
 }
 
@@ -184,11 +184,15 @@ header{
     margin-bottom: 1.6rem;
 }
 
-.contato li a{
+.contato li a:active{
     display: block;
     color: #ffcaca;
     font-weight: 600;
     transition: 0.35s ease;
+}
+
+.contato li a:visited{
+    color: #ce7272;
 }
 
 .copy{
