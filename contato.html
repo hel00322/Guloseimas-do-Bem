@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="msg.js"></script>
     <title>Guloseimas do Bem | Contato</title>
 </head>
 <body>
@@ -35,13 +36,13 @@
                 <div class="forms-container">
                     <form action="" method="post">
                     
-                        <input type="text" name="nome" id="" placeholder="Digite seu nome:">
-                        <input type="email" name="email" id="" placeholder="Seu email:">
-                        <input type="text" name="assunto" id="" placeholder="Assunto da mensagem">
+                        <input type="text" name="nome" id="" placeholder="Digite seu nome:" required>
+                        <input type="email" name="email" id="" placeholder="Seu email:" required>
+                        <input type="text" name="assunto" id="" placeholder="Assunto da mensagem" required>
     
-                        <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                        <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
     
-                        <button type="submit">Enviar Mensagem</button>
+                        <button id="enviarMsg">Enviar Mensagem</button>
                     </form>
                 </div>
 
@@ -66,7 +67,7 @@
         
     </section>
 
-    <div class="copy">
+    <div class="copy" style="color: #ffcaca">
         &copy; 2024 - Criado por Heloísa Tavares Nunes
     </div>
 

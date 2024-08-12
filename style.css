@@ -63,15 +63,20 @@ header{
     gap: 3rem;
 }
 
-.navbar-links a{
+.navbar-links a:link{
     color: #111;
     font-weight: 700;
     transition: 0.3s;
 }
 
-.navbar-links a:hover{
+.navbar-links a:hover a:active{
     color: #df8488;
 }
+
+.navbar-links a:visited{
+    color: #d884df;
+}
+
 
 .banner{
     padding: 7rem 0 0 8.5rem;
@@ -110,6 +115,8 @@ header{
     text-align: center;
     margin-top: 2.5rem;
     margin-bottom: 4rem;
+    visibility: visible;
+        
 }
 
 .container-doces img:hover{
@@ -187,7 +194,7 @@ header{
 .copy{
     text-align: center;
     background-color: #3d1e20;
-    color: #ffcaca;
+    
 }
 
 .background-contato{
