@@ -184,7 +184,7 @@ header{
     margin-bottom: 1.6rem;
 }
 
-.contato li a:active{
+.contato li a{
     display: block;
     color: #ffcaca;
     font-weight: 600;
@@ -192,7 +192,7 @@ header{
 }
 
 .contato li a:visited{
-    color: #ce7272;
+    color: #bd7a7a;
 }
 
 .copy{
